@@ -1,0 +1,315 @@
+{
+  "barchart": {
+    "script": "",
+    "filter": null,
+    "refLine": {
+      "refLines": [],
+      "dimRefLines": []
+    },
+    "plugins": [],
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "showDisclaimer": true,
+    "barGrouping": {
+      "grouping": "grouped"
+    },
+    "orientation": "vertical",
+    "scrollbar": "miniChart",
+    "scrollStartPos": 0,
+    "gridLine": {
+      "auto": true,
+      "spacing": 2
+    },
+    "dataPoint": {
+      "showLabels": false,
+      "showSegmentLabels": false,
+      "showTotalLabels": true
+    },
+    "color": {
+      "auto": true,
+      "mode": "primary",
+      "formatting": {
+        "numFormatFromTemplate": true
+      },
+      "useBaseColors": "off",
+      "paletteColor": {
+        "index": 6
+      },
+      "useDimColVal": true,
+      "useMeasureGradient": true,
+      "persistent": false,
+      "expressionIsColor": true,
+      "expressionLabel": "",
+      "measureScheme": "sg",
+      "reverseScheme": false,
+      "dimensionScheme": "12",
+      "autoMinMax": true,
+      "measureMin": 0,
+      "measureMax": 10
+    },
+    "legend": {
+      "show": true,
+      "dock": "auto",
+      "showTitle": true
+    },
+    "dimensionAxis": {
+      "continuousAuto": true,
+      "show": "all",
+      "label": "auto",
+      "dock": "near",
+      "axisDisplayMode": "auto",
+      "maxVisibleItems": 10
+    },
+    "preferContinuousAxis": true,
+    "measureAxis": {
+      "show": "all",
+      "dock": "near",
+      "spacing": 1,
+      "autoMinMax": true,
+      "minMax": "min",
+      "min": 0,
+      "max": 10
+    },
+    "tooltip": {
+      "auto": true,
+      "hideBasic": false,
+      "chart": {
+        "style": {
+          "size": "medium"
+        }
+      },
+      "data": {}
+    },
+    "version": "2.9.0",
+    "components": [],
+    "showMiniChartForContinuousAxis": true
+  },
+  "filterpane": {
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "version": "1.1.2"
+  },
+  "listbox": {
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false
+  },
+  "map": {
+    "script": "",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "mapSettings": {
+      "showTitle": true,
+      "autoZoomEnabled": true,
+      "showScaleBar": false,
+      "showOverviewMap": false,
+      "baseMapType": "default",
+      "projectionType": "default",
+      "showLegend": true
+    },
+    "version": "1.9.0"
+  },
+  "table": {
+    "script": "",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "totals": {
+      "show": false,
+      "position": "noTotals",
+      "label": "Totals"
+    },
+    "scrolling": {
+      "horizontal": false,
+      "keepFirstColumnInView": false
+    },
+    "multiline": {
+      "wrapTextInHeaders": true,
+      "wrapTextInCells": false
+    },
+    "components": [],
+    "version": "1.4.0"
+  },
+  "linechart": {
+    "script": "",
+    "refLine": {
+      "refLines": [],
+      "dimRefLines": []
+    },
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "showDisclaimer": true,
+    "lineType": "line",
+    "stackedArea": false,
+    "separateStacking": true,
+    "orientation": "horizontal",
+    "scrollbar": "none",
+    "scrollStartPos": 0,
+    "nullMode": "zero",
+    "dataPoint": {
+      "show": true,
+      "showLabels": "auto",
+      "showSegmentLabels": false,
+      "showTotalLabels": true
+    },
+    "maxNumPoints": 5000,
+    "maxNumLines": 12,
+    "gridLine": {
+      "auto": false,
+      "spacing": 0
+    },
+    "color": {
+      "auto": false,
+      "mode": "primary",
+      "formatting": {
+        "numFormatFromTemplate": true
+      },
+      "useBaseColors": "off",
+      "paletteColor": {
+        "index": -1,
+        "color": "#009845",
+        "alpha": 1
+      },
+      "useDimColVal": true,
+      "useMeasureGradient": true,
+      "persistent": false,
+      "expressionIsColor": true,
+      "expressionLabel": "",
+      "measureScheme": "sg",
+      "reverseScheme": false,
+      "dimensionScheme": "12",
+      "autoMinMax": true,
+      "measureMin": 0,
+      "measureMax": 10
+    },
+    "legend": {
+      "show": true,
+      "dock": "auto",
+      "showTitle": true
+    },
+    "dimensionAxis": {
+      "continuousAuto": true,
+      "show": "labels",
+      "label": "auto",
+      "dock": "near",
+      "axisDisplayMode": "auto",
+      "maxVisibleItems": 10
+    },
+    "preferContinuousAxis": true,
+    "measureAxis": {
+      "show": "labels",
+      "dock": "near",
+      "spacing": 2,
+      "autoMinMax": true,
+      "minMax": "min",
+      "min": 0,
+      "max": 10,
+      "logarithmic": false
+    },
+    "tooltip": {
+      "auto": true,
+      "hideBasic": false,
+      "chart": {
+        "style": {
+          "size": "medium"
+        }
+      },
+      "title": "",
+      "description": "",
+      "data": {}
+    },
+    "version": "2.0.10",
+    "showMiniChartForContinuousAxis": true
+  },
+  "piechart": {
+    "script": "",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": true,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "showDisclaimer": true,
+    "donut": {
+      "showAsDonut": true
+    },
+    "dimensionTitle": false,
+    "dataPoint": {
+      "auto": false,
+      "labelMode": "share",
+      "labelValueMode": "arc",
+      "showLabels": true,
+      "showSegmentLabels": false,
+      "showTotalLabels": true,
+      "show": true
+    },
+    "color": {
+      "auto": true,
+      "mode": "byDimension",
+      "formatting": {
+        "numFormatFromTemplate": true
+      },
+      "useBaseColors": "off",
+      "paletteColor": {
+        "index": -1,
+        "color": "#19426c",
+        "alpha": 1
+      },
+      "useDimColVal": true,
+      "useMeasureGradient": true,
+      "persistent": false,
+      "expressionIsColor": true,
+      "expressionLabel": "",
+      "measureScheme": "sg",
+      "reverseScheme": false,
+      "dimensionScheme": "12",
+      "autoMinMax": true,
+      "measureMin": 0,
+      "measureMax": 10,
+      "altLabel": "Category Colored",
+      "byMeasureDef": {
+        "label": "Revenue",
+        "key": "Avg(TotalAmount)",
+        "type": "expression"
+      },
+      "byDimDef": {
+        "label": "Category Colored",
+        "key": "yFMU",
+        "type": "libraryItem"
+      }
+    },
+    "legend": {
+      "show": true,
+      "dock": "auto",
+      "showTitle": false
+    },
+    "tooltip": {
+      "auto": true,
+      "hideBasic": false,
+      "chart": {
+        "style": {
+          "size": "medium"
+        }
+      },
+      "data": {},
+      "title": "",
+      "description": ""
+    },
+    "version": "2.0.10"
+  }
+}
